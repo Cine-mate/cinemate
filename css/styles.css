@@ -46,3 +46,14 @@ footer a:hover {
 .regularfont{
 	font-family: "Prata", serif;
 }
+
+.footer { 
+    position: absolute; 
+    bottom: 0; 
+    left: 0; 
+    z-index: 10;
+}
+
+.bgyellow {
+	color: #D1B266
+}
