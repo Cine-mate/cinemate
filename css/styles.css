@@ -62,6 +62,10 @@ footer a:hover {
 	background-color: #5F1A1F
 }
 
+.bgdarkblue {
+	background-color: #012F3D
+}
+
 .icon {
       width: 100px; /* Adjust the width as needed */
       height: 100px; /* Adjust the height as needed */

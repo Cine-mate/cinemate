@@ -26,7 +26,7 @@
     <nav class="navbar navbar-expand-lg navbar-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="images/buas-square.svg" width="40" alt="Breda University of Applied Sciences">
+          <img src="images/cinematelogowithouttext.png" width="100" alt="Breda University of Applied Sciences">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -34,10 +34,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="index.html">Home</a>
+              <a class="nav-link regularfont" aria-current="page" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link active" href="corporate.html">Corporate</a>
+              <a class="nav-link active regularfont" href="corporate.html">Corporate</a>
             </li>
           </ul>
         </div>
@@ -45,8 +45,8 @@
     </nav>
     <!-- End of navigation bar -->
 
-    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid bg-gradient text-light">
-      <h1 class="fw-light">Corporate information</h1>
+    <header class="py-2 py-md-4 py-lg-5 text-center container-fluid text-light bgdarkblue">
+      <h1 class="fw-light regularfont">Corporate information</h1>
     </header>
 
     <main class="container-fluid container-xl">
@@ -195,13 +195,61 @@
               </ul>
             </li>
           </ul>
-          <h4 id="production-2" class="mt-2">Credits</h4>
-          <p>Please provide links and/or credits for third-party elements including:</p>
-          <ul>
-            <li>HTML <strong>templates</strong> if these are different from this one (<a href="https://github.com/buas-media-interactive/prj4-group-template" target="_blank">buas-media-interactive/prj4-group-template</a>)</li>
-            <li>The source code for <strong>UX patterns</strong> other than the ones provided by the “Bootstrap” library (see <a href="https://getbootstrap.com/docs/5.2/" target="_blank">getbootstrap.com/docs</a> for a list of such patterns)</li>
-            <li><strong>Images</strong> that were not produced by students themselves, including when crediting is not mandatory (in other words, we ask you to credit Unsplash images)</li>
-          </ul>
+          <h4 id="production-2" class="mt-2 text-white">Credits</h4>
+          <p class="text-white">Below, you can find the links and/or credits to third-party elements that we have used:&nbsp; &nbsp;</p>
+			<table class="table table-bordered table-striped">
+            <thead>
+              <tr class="bg-white">
+                <th scope="col">#</th>
+                <th scope="col">Description&nbsp;</th>
+                <th scope="col">Place on Website&nbsp;</th>
+                <th scope="col">Original Source</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="text-white" scope="row">1.</th>
+                <td class="text-white">Template for the Home Page and its elements</td>
+                <td class="text-white">Home Page&nbsp; &nbsp;&nbsp;</td>
+                <td>
+                  <a href="https://startbootstrap.com/template/modern-business">Source</a>
+                </td>
+              </tr>
+              <tr>
+                <th class="text-white" scope="row">2.</th>
+                <td class="text-white">Picture of Mike &amp; Sully (Monsters, Inc.)</td>
+                <td class="text-white">Home Page&nbsp;</td>
+                <td>
+                  <a href="https://www.pinterest.com/pin/mike-sully--51087777009288331/">Source</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+			
+			<p class="text-white">We also resorted to ChatGPT to help us fix some code sometimes, below you can find our exact prompts:&nbsp; &nbsp;</p>
+			<table class="table table-bordered table-striped">
+            <thead>
+              <tr class="bg-white">
+                <th scope="col">#</th>
+                <th scope="col">Prompt&nbsp;</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th class="text-white" scope="row">1.</th>
+                <td class="text-white">''Give the image slightly rounded corners''&nbsp; &nbsp;&nbsp;</td>
+              </tr>
+              <tr>
+                <th class="text-white" scope="row">2.</th>
+                <td class="text-white">''Give X the following color: #X'' -&gt; Had to sometimes overwrite Bootstrap</td>
+              </tr>
+				<tr>
+					<th class="text-white" scope="row">3.</th>
+                <td class="text-white">''Create a black-and-white effect when you hover an image''</td>
+				</tr>
+            </tbody>
+          </table>
+          
           <h4 id="production-3" class="mt-2">Testing Report</h4>
           <p>Please write about&hellip;</p>
           <ul>
@@ -225,10 +273,10 @@
 
           <h2 id="marketing" class="mt-5">Marketing</h2>
           <h4 id="marketing-1" class="mt-2">Context of campaign and promotional activities</h4>
-          <p>Explain the context of the campaign is (What the campaign is about, what the message is, which promotional activities were executed). In addition, present the objectives as mentioned in the Communication & Media Plan.</p>
-          <p>Explain and justify the chosen channels/platforms used and show there is a solid connection to the objectives established in the Communication & Media Plan.</p>
+          <p>Explain the context of the campaign is (What the campaign is about, what the message is, which promotional activities were executed). In addition, present the objectives as mentioned in the Communication and Media Plan.</p>
+          <p>Explain and justify the chosen channels/platforms used and show there is a solid connection to the objectives established in the Communication and Media Plan.</p>
           <h4 id="marketing-2" class="mt-4">Learning Points</h4>
-          <p>Identify and justify your learning point (based on the Communication & Media Plan). What did you learn during the duration of the project concerning the campaign? What worked and what didn’t? What went as expected and what didn’t? What would you do differently? Reflect on the past work and describe what you learned.</p>
+          <p>Identify and justify your learning point (based on the Communication and Media Plan). What did you learn during the duration of the project concerning the campaign? What worked and what didn’t? What went as expected and what didn’t? What would you do differently? Reflect on the past work and describe what you learned.</p>
           <h4 id="marketing-3" class="mt-4">Future Planning</h4>
           <p>Reflection on what has been done and describe in detail what you would do if the project would continue.</p>
           <p>Describe in detail your future recommendations if the campaign would be continued.</p>
