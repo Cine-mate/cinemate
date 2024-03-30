@@ -75,8 +75,9 @@ footer a:hover {
     }
 
 body {
-  font-family: Raleway, sans-serif;
+  font-family: "Prata", serif;
   margin: 0;
+  font-size: larger;
 }
 
 html {
@@ -179,3 +180,6 @@ header2 {
   justify-content: center;
 }
 
+.brand-values {
+  font-family: "Prata", serif;
+}
