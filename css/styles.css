@@ -107,7 +107,8 @@ color: #d1b266
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
-border: 2px solid #D1B266
+border: 2px solid #D1B266;
+
 }
 
 .about-section {
@@ -120,12 +121,15 @@ border: 2px solid #D1B266
 
 .container {
   padding: 0 16px;
+
 }
 
 .container::after, .row::after {
   content: "";
   clear: both;
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .title {
@@ -168,5 +172,10 @@ header2 {
 	}	
 
 }
-.goodtitle {
+
+#Example-Pictures{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
