@@ -43,6 +43,9 @@ footer a:hover {
 		0 0 .5em white;
 }
 
+.bg-darkblue {
+    background-color: #012F3D;
+}
 .regularfont{
 	font-family: "Prata", serif;
 }
